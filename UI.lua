@@ -96,7 +96,7 @@ function module.CreateAnnouncement(message,config)
 	MainUIElements["announcement"].Position = UDim2.new(0, 0,0.472392619, 0)
 	MainUIElements["announcement"].TextScaled = true
 	MainUIElements["announcement"].BackgroundColor3 = Color3.fromRGB(100.00000163912773,87.00000241398811,103.0000014603138)
-	MainUIElements["announcement"].Text = "<b>"..message.."<b>"
+	MainUIElements["announcement"].Text = "<b>"..message.."</b>"
 	MainUIElements["UIGradient"].Archivable = true
 	MainUIElements["UIGradient"].Name = "UIGradient"
 	MainUIElements["UIGradient"].Parent = MainUIElements["announcement"]
