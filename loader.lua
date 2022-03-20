@@ -26,5 +26,5 @@ for i,v in pairs(SupportedGames) do
 	end
 end
 if typeof(MainSystem) == "table" then
-	MainSystem.CreateAnnouncement("Template hub wont run in this game because its unsupported",{tween = true,timetoremove = 3})
+	MainSystem.CreateAnnouncement("Template hub wont run in this game because its unsupported",{tween = true,timetoremove = 5})
 end
